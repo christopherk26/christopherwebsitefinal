@@ -56,7 +56,7 @@ if selected == "Home":
         st.write(
             """
             Christopher Kurdoghlian is currently a Student at California Polytechnic State University Pomona, (CPP), studying
-            Computer Science and minoring in Data Science. He currently resides in La Canada, California. Christopher has two sibilings,
+            Computer Science and minoring in Data Science. He currently resides in Pasadena, California. Christopher has two sibilings,
             Sarah and Kevork. Christopher enjoys biking, running, LEGO, yoga, reading, and podcasts. Christopher has included a contact page
             and a page for viewing some of the various projects he has worked on.
             """
