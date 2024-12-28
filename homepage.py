@@ -3,7 +3,7 @@ from PIL import Image
 from streamlit_option_menu import option_menu
 
 # Find more emojis here: https://www.webfx.com/tools/emoji-cheat-sheet/
-st.set_page_config(page_title="ckurdoghlian", page_icon=":evergreen_tree:", layout="wide")
+st.set_page_config(page_title="christopherkurdoghlian", page_icon=":evergreen_tree:", layout="wide")
 
 with st.sidebar:
     linkedin_url = "https://www.linkedin.com/in/christopher-kurdoghlian-77b20927a/"
@@ -71,7 +71,7 @@ if selected == "Contact":
 
         left_column, right_column = st.columns(2)
         with left_column:
-            st.write('<a href="christopherkurdoghlian@gmail.com">christopherkurdoghlian@gmail.com</a>', unsafe_allow_html=True)
+            st.write('<a href="ckurdoghlian@gmail.com">ckurdoghlian@gmail.com</a>', unsafe_allow_html=True)
         with right_column:
             st.image(img_flower, width = 500)
 
