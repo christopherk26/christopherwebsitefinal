@@ -102,7 +102,7 @@ if selected == "Projects":
         st.markdown(f'<a href="{techanalysisapp_url}" target="_blank" style="text-decoration: none; color: inherit;">` technical analysis`</a>', unsafe_allow_html=True)
         st.image(img_technicalanalysis, width = 400)
 
-    with right_column:
+    with right_column_a:
         st.header ("")
         
     
