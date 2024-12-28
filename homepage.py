@@ -126,7 +126,7 @@ if selected == "Projects":
             """
         )
         optionsstrategies_url = "https://optionsstrategybychristopherk.streamlit.app/"
-        st.markdown(f'<a href="{optionsstrategies_url}" target="_blank" style="text-decoration: none; color: inherit;">`options pricing heatmap - interactive`</a>', unsafe_allow_html=True)
+        st.markdown(f'<a href="{optionsstrategies_url}" target="_blank" style="text-decoration: none; color: inherit;">`options strategy simple builder - interactive`</a>', unsafe_allow_html=True)
         st.image(img_optionsstrategies, width = 400)
 
     with right_column:
