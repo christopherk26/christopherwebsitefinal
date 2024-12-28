@@ -36,11 +36,7 @@ local_css("style.css")
 
 img_flower = Image.open("images/castle.png")
 img_christopher = Image.open("images/chris.JPG")
-img_threeD = Image.open("images/3d.png")
-img_gravity = Image.open("images/gravity.png")
-img_options = Image.open("images/options.png")
-img_optionsstrategies = Image.open("images/strategies.png")
-img_airport = Image.open("images/airport.png")
+
 
 
 if selected == "Home":
@@ -82,6 +78,34 @@ if selected == "Contact":
 if selected == "Projects":
     st.title("Projects")
     st.write("""Here are some of the projects I have worked on over the years. Click the grey boxes to be directed to the projects. Make sure to scroll down.""")
+    
+
+
+    img_threeD = Image.open("images/3d.png")
+    img_gravity = Image.open("images/gravity.png")
+    img_options = Image.open("images/options.png")
+    img_optionsstrategies = Image.open("images/strategies.png")
+    img_airport = Image.open("images/airport.png")
+    img_technicalanalysis = Image.open("images/technicalanalysis.png")
+    
+
+    with st. container(): st.write("---")
+    left_column_a, right_column_a = st.columns(2)
+    with left_column_a:
+        st.header ("Simple Technical analysis tool")
+        st.write(
+            """
+            Simple technical analysis tool with Bollinger Bands and MA's
+            """
+        )
+        techanalysisapp_url = "https://techanalysisapp.streamlit.app/"
+        st.markdown(f'<a href="{techanalysisapp_url}" target="_blank" style="text-decoration: none; color: inherit;">` technical analysis`</a>', unsafe_allow_html=True)
+        st.image(img_technicalanalysis, width = 400)
+
+    with right_column:
+        st.header ("")
+        
+    
     with st. container(): st.write("---")
     left_column, right_column = st.columns(2)
     with left_column:
