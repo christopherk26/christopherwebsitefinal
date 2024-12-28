@@ -3,7 +3,7 @@ from PIL import Image
 from streamlit_option_menu import option_menu
 
 # Find more emojis here: https://www.webfx.com/tools/emoji-cheat-sheet/
-st.set_page_config(page_title="christopherkurdoghlian", page_icon=":evergreen_tree:", layout="wide")
+st.set_page_config(page_title="ckurdoghlian", page_icon=":evergreen_tree:", layout="wide")
 
 with st.sidebar:
     linkedin_url = "https://www.linkedin.com/in/christopher-kurdoghlian-77b20927a/"
