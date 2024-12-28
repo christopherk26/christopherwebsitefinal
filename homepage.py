@@ -69,10 +69,10 @@ if selected == "Contact":
     with st.container():
         st.title("Contact")
 
-        left_column, right_column = st.columns(2)
-        with left_column:
+        left_column_contact, right_column_contact = st.columns(2)
+        with left_column_contact:
             st.write('<a href="ckurdoghlian@gmail.com">ckurdoghlian@gmail.com</a>', unsafe_allow_html=True)
-        with right_column:
+        with right_column_contact:
             st.image(img_flower, width = 500)
 
 if selected == "Projects":
