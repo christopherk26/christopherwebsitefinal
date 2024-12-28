@@ -87,7 +87,8 @@ if selected == "Projects":
     img_optionsstrategies = Image.open("images/strategies.png")
     img_airport = Image.open("images/airport.png")
     img_technicalanalysis = Image.open("images/technicalanalysis.png")
-    
+    img_datamining = Image.open("images/datamining.png")
+
 
     with st. container(): st.write("---")
     left_column_a, right_column_a = st.columns(2)
@@ -99,12 +100,20 @@ if selected == "Projects":
             """
         )
         techanalysisapp_url = "https://techanalysisapp.streamlit.app/"
-        st.markdown(f'<a href="{techanalysisapp_url}" target="_blank" style="text-decoration: none; color: inherit;">` technical analysis`</a>', unsafe_allow_html=True)
+        st.markdown(f'<a href="{techanalysisapp_url}" target="_blank" style="text-decoration: none; color: inherit;">`technical analysis`</a>', unsafe_allow_html=True)
         st.image(img_technicalanalysis, width = 400)
 
     with right_column_a:
-        st.header ("")
-        
+        st.header ("Data mining project")
+        st.write(
+            """
+            Here is the repo to my data mining project that lasted a semester. I led the project, and there were 5 parts to it, like mining the data,
+            exploring the data, and then applying algorithms for classification, clustering, and frequent patterns mining. 
+            """
+        )
+        datamining_url = "https://github.com/Data-Mining-CPP-Collab/BasicAlgorithms"
+        st.markdown(f'<a href="{datamining_url}" target="_blank" style="text-decoration: none; color: inherit;">`data mining project`</a>', unsafe_allow_html=True)
+        st.image(img_datamining, width = 400)
     
     with st. container(): st.write("---")
     left_column, right_column = st.columns(2)
