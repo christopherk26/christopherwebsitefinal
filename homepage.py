@@ -88,6 +88,7 @@ if selected == "Projects":
     img_airport = Image.open("images/airport.png")
     img_technicalanalysis = Image.open("images/technicalanalysis.png")
     img_datamining = Image.open("images/datamining.png")
+    img_coveredcall = Image.open("images/coveredcall.png")
 
 
     with st. container(): st.write("---")
@@ -185,5 +186,14 @@ if selected == "Projects":
         st.image(img_airport, width = 400)
 
     with right_column_rowthree:
-       st.write()
+        st.header ("Covered Call strategy")
+        st.write(
+            """
+            My newest and most detailed project. My covered call strategy, with all inputs and calculations done for custom analysis and 
+            statistical measures of the strategy. 
+            """
+        )
+        coveredcall_url = "https://coveredcallstratchristopherk.streamlit.app/"
+        st.markdown(f'<a href="{coveredcall_url}" target="_blank" style="text-decoration: none; color: inherit;">`covered call strategy`</a>', unsafe_allow_html=True)
+        st.image(img_coveredcall, width = 400)
 
