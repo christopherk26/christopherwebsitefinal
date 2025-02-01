@@ -206,11 +206,11 @@ if selected == "Projects":
         st.header ("Kelly Criterion Sim")
         st.write(
             """
-            This is a simulation of the kelly criterion.
+            This is a simulation of the Kelly criterion.
             """
         )
         kelly_url = "https://kellycriterionsimulation.streamlit.app/"
-        st.markdown(f'<a href={kelly_url}" target="_blank" style="text-decoration: none; color: inherit;">`airport shortest path`</a>', unsafe_allow_html=True)
+        st.markdown(f'<a href="{kelly_url}" target="_blank" style="text-decoration: none; color: inherit;">`Kelly Criterion`</a>', unsafe_allow_html=True)
         st.image(img_kelly, width = 400)
 
     with right_column_rowfour:
