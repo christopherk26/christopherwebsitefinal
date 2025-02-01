@@ -197,3 +197,21 @@ if selected == "Projects":
         st.markdown(f'<a href="{coveredcall_url}" target="_blank" style="text-decoration: none; color: inherit;">`covered call strategy`</a>', unsafe_allow_html=True)
         st.image(img_coveredcall, width = 400)
 
+
+    left_column_rowfour, right_column_rowfour = st.columns(2)
+
+    img_kelly = Image.open("images/kelly.png")
+
+    with left_column_rowfour:
+        st.header ("Kelly Criterion Sim")
+        st.write(
+            """
+            This is a simulation of the kelly criterion.
+            """
+        )
+        kelly_url = "https://kellycriterionsimulation.streamlit.app/"
+        st.markdown(f'<a href={kelly_url}" target="_blank" style="text-decoration: none; color: inherit;">`airport shortest path`</a>', unsafe_allow_html=True)
+        st.image(img_kelly, width = 400)
+
+    with right_column_rowfour:
+        st.write()
